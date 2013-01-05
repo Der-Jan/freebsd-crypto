@@ -1230,6 +1230,9 @@ dmu_objset_sync(objset_t *os, zio_t *pio, dmu_tx_t *tx)
     /* we will update the meta/userused/groupused dnodes */
 	dmu_objset_dirty(os);
 
+    /* we will update the meta/userused/groupused dnodes */
+	dmu_objset_dirty(os);
+
 	dmu_write_policy(os, NULL, 0, 0, &zp);
 
     // Note that it was DMU_OS_IS_L2CACHEABLE -> !DMU_OS_IS_L2CACHEABLE

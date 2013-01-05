@@ -2758,12 +2758,13 @@ to the jail identified by JID
 From now on this file system tree can be managed from within a jail if the
 .Sy jailed
 property has been set. To use this functionality, the jail needs the
-.Va allow.mount
-and
-.Va allow.mount.zfs
-parameters set to 1 and the
 .Va enforce_statfs
-parameter set to a value lower than 2.
+parameter set to
+.Sy 0
+and the
+.Va allow.mount
+parameter set to
+.Sy 1 .
 .Pp
 See
 .Xr jail 8
