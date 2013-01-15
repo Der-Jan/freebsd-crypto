@@ -70,7 +70,6 @@ ZFS_COMMON_OBJS +=		\
 	spa_history.o		\
 	spa_misc.o		\
 	space_map.o		\
-        trim_map.o              \
 	txg.o			\
 	uberblock.o		\
 	unique.o		\
@@ -127,7 +126,6 @@ ZFS_OBJS +=			\
 	rrwlock.o		\
 	zfs_vfsops.o		\
 	zfs_vnops.o		\
-	zcrypt_common.o         \
 	zvol.o
 
 ZUT_OBJS +=			\
