@@ -116,6 +116,7 @@ ZFS_SHARED_OBJS +=		\
 ZFS_OBJS +=			\
 	$(ZFS_COMMON_OBJS)	\
 	$(ZFS_SHARED_OBJS)	\
+	bptree.o		\
 	zfs_acl.o		\
 	zfs_ctldir.o		\
 	zfs_dir.o		\
@@ -128,6 +129,7 @@ ZFS_OBJS +=			\
 	rrwlock.o		\
 	zfs_vfsops.o		\
 	zfs_vnops.o		\
+	zfeature.o		\
 	zvol.o
 
 ZUT_OBJS +=			\
